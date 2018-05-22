@@ -16,21 +16,23 @@
 export default {
 
     data(){
-
+        
         return {
             titulo: 'Alurapic',
-            fotos: [
-                {
-                    url: 'https://t1.ea.ltmcdn.com/pt/images/5/3/1/o_que_fazer_se_o_meu_cachorro_esta_estressado_20135_600.jpg',
-                    titulo: 'Cachorro'
-                },
-                {
-                    url: 'https://t1.ea.ltmcdn.com/pt/images/5/3/1/o_que_fazer_se_o_meu_cachorro_esta_estressado_20135_600.jpg',
-                    titulo: 'Cachorrão'
-                }
-            ]
+            fotos: []
         };
+    },
+
+    created(){
+        this.$http.get('http://localhost:3000/v1/fotos')
+            .then(res => res.json())
+            .then(fotos => this.fotos = fotos, err => console.log(err));
     }
+
+    /*
+    Você pode acessar a própria documentação do Vue para ver todos os ganchos suportados no ciclo de vida de um 
+    componente neste endereço https://vuejs.org/v2/api/#Options-Lifecycle-Hooks.
+    */
 }
 </script>
 
