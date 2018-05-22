@@ -1,1 +1,6 @@
 alurapic/node_modules
+api/.tmp
+api/.DS_Store
+api/.DS_Store?
+api/node_modules/
+api/.dpl/
