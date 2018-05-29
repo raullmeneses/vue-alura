@@ -61,4 +61,8 @@ export default {
         painel-fade-enter-active // quando o elemento esta sendo incluído
         */
     }
+
+    .painel-conteudo{
+        overflow: hidden;
+    }
 </style>
