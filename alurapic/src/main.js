@@ -10,7 +10,7 @@ Vue.use(VueRouter);
 
 const router = new VueRouter({ 
   routes,
-  mode: 'history'
+  mode: 'history' // isso aqui é para nao aparecer o # antes dos links da rota
 });
 
 new Vue({
