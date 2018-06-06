@@ -4,3 +4,8 @@ api/.DS_Store
 api/.DS_Store?
 api/node_modules/
 api/.dpl/
+server/node_modules
+server/.tmp
+server/.DS_Store
+server/.DS_Store?
+server/.dpl/
