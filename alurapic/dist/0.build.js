@@ -1,15 +1,15 @@
 webpackJsonp([0],{
 
-/***/ 47:
+/***/ 54:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Cadastro_vue__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Cadastro_vue__ = __webpack_require__(55);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_04057c5a_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Cadastro_vue__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_04057c5a_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Cadastro_vue__ = __webpack_require__(59);
 function injectStyle (ssrContext) {
-  __webpack_require__(49)
+  __webpack_require__(56)
 }
 var normalizeComponent = __webpack_require__(2)
 /* script */
@@ -39,14 +39,14 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 48:
+/***/ 55:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_imagem_responsiva_ImagemResponsiva_vue__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_botao_Botao_vue__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__domain_foto_Foto__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__domain_foto_FotoService__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_imagem_responsiva_ImagemResponsiva_vue__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_botao_Botao_vue__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__domain_foto_Foto__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__domain_foto_FotoService__ = __webpack_require__(14);
 //
 //
 //
@@ -138,13 +138,13 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 49:
+/***/ 56:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(50);
+var content = __webpack_require__(57);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -152,10 +152,10 @@ var update = __webpack_require__(1)("09c3d29f", content, true, {});
 
 /***/ }),
 
-/***/ 50:
+/***/ 57:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(0)(false);
+exports = module.exports = __webpack_require__(0)();
 // imports
 
 
@@ -167,7 +167,7 @@ exports.push([module.i, ".controle[data-v-04057c5a]{font-size:1.2em;margin-botto
 
 /***/ }),
 
-/***/ 51:
+/***/ 58:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -185,7 +185,7 @@ class Foto {
 
 /***/ }),
 
-/***/ 52:
+/***/ 59:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
